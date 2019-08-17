@@ -1,0 +1,110 @@
+.button {
+  margin:auto;
+  
+  display: inline-block;
+  display:block;
+  padding: 15px 32px;
+  
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+
+  cursor: pointer;
+  
+  background-color: #F7882F;
+  
+  border: 1px solid green;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  
+  width:100%;
+  transition: all 0.5s;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span{
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#my_centered_buttons { 
+  display: flex; 
+  justify-content: center; 
+}
+
+/* To change color of button to green when hovered over */
+#easy:hover {
+  background-color: green;
+}
+
+/* To change color of button to yellow when hovered over */
+#moderate:hover {
+  background-color: yellow;
+}
+
+/* To change color of button to red when hovered over */
+#hard:hover {
+  background-color: red;
+}
+
+body {
+  background: #e4decd;
+}
+
+nav {
+  color:black; 
+  font-family:verdana;
+  text-align:center;
+  
+  border-width: 100%; 
+  border-style: inset; 
+  border-radius: 3px; 
+  border-color:#82716e;
+  
+  padding: none;
+  background-color:#c2b490;
+}
+a {
+  color : black;
+}
+
+/* To align the h1 and p and apply necessary css */
+.heading {
+  margin-top : 20px;
+  color: black;
+  text-align:center;
+
+  border-width: 100%; 
+  border-style: inset; 
+  border-radius: 3px; 
+  border-color:#82716e;
+  
+  background-color:#c2b490;
+}
