@@ -1,0 +1,71 @@
+.button {
+   margin:auto;
+  display: inline-block;
+  display:block;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: 1px solid green;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  width:100%;
+  transition: all 0.5s;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span{
+padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#my_centered_buttons 
+{ 
+display: flex; 
+justify-content: center; 
+}
+body 
+{
+background-image: url("images.jpg");
+}
+h1
+{
+color:black; 
+font-family:verdana; 
+font-size:200%; 
+text-align:center;
+border-width: 100%; 
+border-style: inset; 
+border-radius: 5px; 
+border-color:lime; 
+background-color:yellow;
+}
+p
+{
+color:black;
+font-size:150%;
+text-align:center;
+}

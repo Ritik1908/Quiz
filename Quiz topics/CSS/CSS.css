@@ -1,0 +1,141 @@
+.btn-group .button 
+{
+	margin:auto;
+	padding: 5px 5px;
+	display: inline-block;
+	display:block;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border-radius: 5px;
+	width:100%;
+	transition: all 0.5s;
+	border: 1px solid #999;
+	-webkit-box-shadow: 1px 1px 2px #999;
+		-moz-box-shadow: 1px 1px 2px #999;
+			box-shadow: 1px 1px 2px #999;
+}
+.btn-group button:focus 
+{
+	background: #999;
+	outline: none;
+	-webkit-box-shadow: inset 0px 0px 4px #999;
+		-moz-box-shadow: inset 0px 0px 4px #999;
+			box-shadow: inset 0px 0px 4px #999;
+}
+.btn-group .button span 
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.btn-group .button span:after 
+{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.btn-group .button:hover span
+{
+	padding-right: 25px;
+}
+.btn-group .button:hover span:after 
+{
+	opacity: 1;
+	right: 0;
+}
+.btn-group .button:active 
+{
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+body 
+{
+	background-image: url("images.jpg");
+}
+#p5
+{
+	padding:0px;
+	margin:0px;
+}
+#p1
+{
+	color:black;
+	font-size:150%;
+	text-align:center;
+	padding: 2px;
+	margin:2px;
+}
+#p2
+{
+	color:black;
+	font-size:150%;
+	text-align:center;
+	padding: 2px;
+	margin:2px;
+}
+#p3
+{
+	color:black;
+	font-size:150%;
+	text-align:center;
+	padding: 2px;
+	margin:2px;
+}
+#p4
+{
+	color:black;
+	font-size:150%;
+	text-align:center;
+	padding: 2px;
+	margin:2px;
+}
+* 
+{
+    box-sizing: border-box;
+}
+.header 
+{
+    color:black; 
+	background-color:yellow;
+	font-family:verdana; 
+	font-size:200%; 
+	text-align:center;
+	border: 5px solid;
+	-webkit-border-image: url("https://mdn.mozillademos.org/files/4127/border.png") 20;
+	-o-border-image: url("https://mdn.mozillademos.org/files/4127/border.png") 20;
+	border-image: url("https://mdn.mozillademos.org/files/4127/border.png") 20;
+}
+.menu 
+{
+    width: 70%;
+    float: left;
+    padding: 5px;
+}
+.main 
+{
+    width: 30%;
+    float: left;
+    padding: 1px;
+	background-color:black;
+	border: 1px solid black;
+	color:white;
+	font-size:150%;
+	text-align:center;
+}
+.last
+{
+	color:black; 
+	font-family:verdana; 
+	font-size:400%; 
+	text-align:center;
+}
