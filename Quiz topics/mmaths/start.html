@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html>
-<title>
-Questions
-</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../CSS/CSS.css">
+<head>
+	<title>Questions</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../CSS/CSS.css">
+</head>
 <body>
-<div id="xyz">
-<div class="header">
-<div>Time Left =<span id="time"></span> minutes!</div>
-</div>
-<br>
-<div class="header">
-<p id="p5"></p>
-</div>
-<br>
-<div class="menu">
-<div class="btn-group">
-<button class="button" style="vertical-align:middle" onclick="check1();"><span><p id="p1"></p></span></button><br>
-<button class="button" style="vertical-align:middle" onclick="check2();"><span><p id="p2"></p></span></button><br>
-<button class="button" style="vertical-align:middle" onclick="check3();"><span><p id="p3"></p></span></button><br>
-<button class="button" style="vertical-align:middle" onclick="check4();"><span><p id="p4"></p></span></button><br>
-</div>
-</div>
-<div class="main">
-<p id="p01"></p>
-<p id="p03"></p>
-</div>
-</div>
-<div class="last">
-<p id="a1"></p>
-<p id="a2"></p>
-<p id="a3"></p>
-<a href="https://ritikquiz.000webhostapp.com/" id="a4"></a>
-</div>
-<script src="script.js"></script>
+
+	<nav>
+		<a href = "/index.html">
+			<h1>
+				My Quiz
+			</h1>
+		</a>
+	</nav>
+
+	<div id="xyz">
+
+		<div class="heading">
+			<div>Time Left =<span id="time"></span> minutes!</div>
+			
+			<br>
+
+			<p id="p5"></p>
+		</div>
+
+		<br>
+
+		<div class="menu">
+			<div class="btn-group">
+				<button class="button" style="vertical-align:middle" onclick="check1();"><span><p id="p1"></p></span></button><br>
+				<button class="button" style="vertical-align:middle" onclick="check2();"><span><p id="p2"></p></span></button><br>
+				<button class="button" style="vertical-align:middle" onclick="check3();"><span><p id="p3"></p></span></button><br>
+				<button class="button" style="vertical-align:middle" onclick="check4();"><span><p id="p4"></p></span></button><br>
+			</div>
+		</div>
+
+		<div id="main" class="heading">
+			<p id="p01"></p>
+			<p id="p03"></p>
+		</div>
+
+	</div>
+	
+	<div class="heading">
+		<p id="a1"></p>
+		<p id="a2"></p>
+		<p id="a3"></p>
+		<a href="/index.html" id="a4"></a>
+	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>
