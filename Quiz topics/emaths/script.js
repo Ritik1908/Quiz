@@ -1,5 +1,5 @@
-var x=0;
-var sc=0;
+var x = 0;
+var score = 0; //To store score of the user
 var myVar;
 var ques = ["1) If the three angles of a quadrilateral are 120 degree , 130 degree, 10 degree then what is the fourth angle ?", "2) The formula for finding volume of cuboid is ", "3) Which of the following is not a square number?","4) What is the length of the diagonal of a rectangle having dimensions 3cm and 4cm?","5) 729 is the value of"];
 var op1 = ["1) 120degree", "1) l × b × h", "1) 16","1) 5 cm","1) 6<sup>3</sup>"];
@@ -7,6 +7,7 @@ var op2 = ["2) 100 degree", "2) l + b + h", "2) 36","2) 8 cm","2) 7<sup>3</sup>"
 var op3 = ["3) 90 degree", "3) l × b ", "3) 25","3) 4 cm","3) 9<sup>3</sup>"];
 var op4 = ["4) 45 degree", "4) l + b", "4) 24","4) 10 cm","4) 8<sup>3</sup>"];
 var oc=[2,1,4,1,3];
+
 function startTimer(duration, display) 
 {
     var start = Date.now(),

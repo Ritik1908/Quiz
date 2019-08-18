@@ -7,7 +7,15 @@
 	<link rel="stylesheet" href="../CSS/CSS.css">
 </head>
 <body>
-
+	<!--
+	p5 -> question
+	p1 -> option1
+	p2 -> option2
+	p3 -> option3
+	p4 -> option4
+	p01 -> score
+	p02 -> answer
+-->
 	<nav>
 		<a href = "/index.html">
 			<h1>
@@ -16,41 +24,46 @@
 		</a>
 	</nav>
 
-	<div id="xyz">
+	<div id="questionPart">
 
 		<div class="heading">
-			<div>Time Left =<span id="time"></span> minutes!</div>
+			<div>Time Left =<span id="time"></span> Seconds!</div>
 			
 			<br>
 
-			<p id="p5"></p>
+			<p id="question"></p>
 		</div>
 
 		<br>
 
 		<div class="menu">
 			<div class="btn-group">
-				<button class="button" style="vertical-align:middle" onclick="check1();"><span><p id="p1"></p></span></button><br>
-				<button class="button" style="vertical-align:middle" onclick="check2();"><span><p id="p2"></p></span></button><br>
-				<button class="button" style="vertical-align:middle" onclick="check3();"><span><p id="p3"></p></span></button><br>
-				<button class="button" style="vertical-align:middle" onclick="check4();"><span><p id="p4"></p></span></button><br>
+				<button class="button" style="vertical-align:middle" onclick="userOption=1; buttonPressed();">
+					<span>
+						<p id="option1"></p>
+					</span>
+				</button>
+				<br>
+				<button class="button" style="vertical-align:middle" onclick="userOption=2; buttonPressed();"><span><p id="option2"></p></span></button><br>
+				<button class="button" style="vertical-align:middle" onclick="userOption=3; buttonPressed();"><span><p id="option3"></p></span></button><br>
+				<button class="button" style="vertical-align:middle" onclick="userOption=4; buttonPressed();"><span><p id="option4"></p></span></button><br>
 			</div>
 		</div>
 
 		<div id="main" class="heading">
-			<p id="p01"></p>
-			<p id="p03"></p>
+			<p id="score"></p>
+			<p id="answer"></p>
 		</div>
 
 	</div>
 	
-	<div class="heading">
-		<p id="a1"></p>
-		<p id="a2"></p>
-		<p id="a3"></p>
+	<div class="finalPage">
+		<p id="msg1"></p>
+		<p id="msg2"></p>
+		<p id="msg3"></p>
 		<a href="/index.html" id="a4"></a>
 	</div>
 
-	<script src="script.js"></script>
+	<script src="script1.js"></script>
 </body>
 </html>
