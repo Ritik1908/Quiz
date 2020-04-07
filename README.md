@@ -10,3 +10,5 @@ Geography
 History
 Political Science
 Sociology
+
+Project Link: https://ritik1908.github.io/Quiz/
